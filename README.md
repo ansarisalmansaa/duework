@@ -6,8 +6,9 @@ DUEWORK
 - This Project will allow user to add and delete new due Projects with subject name, title description and due date.
 
 ## Wireframes
-
-
+<img width="861" alt="Screen Shot 2021-06-29 at 12 58 09 AM" src="https://user-images.githubusercontent.com/84696994/123822648-7a31a780-d8ca-11eb-8445-8d6e40bce386.png">
+<img width="598" alt="Screen Shot 2021-06-29 at 2 00 34 AM" src="https://user-images.githubusercontent.com/84696994/123822671-7ef65b80-d8ca-11eb-984a-46520ab79b36.png">
+<img width="309" alt="Screen Shot 2021-06-29 at 1 27 41 AM" src="https://user-images.githubusercontent.com/84696994/123822678-8158b580-d8ca-11eb-9ca6-b84484f3d00a.png">
 
 ## Component Hierarchy
 
