@@ -70,7 +70,7 @@ DUEWORK
 
 | Day | Components | Status |
 | --- | :---: |  :---: | 
-| Tuesday June 28|Project Approval / Research| Incomplete|  
+| Tuesday June 28|Project 2 Pitches Approval / Research| Incomplete|  
 | Wednesday June 29 | Airtable Set up and Axios| Incomplete| 
 | Thursday June 30| Get Data | Incomplete|  
 | Friday July 1| React | Incomplete| 
