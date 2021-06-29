@@ -104,12 +104,12 @@ DUEWORK
 ## SWOT Analysis
 
 ### Strengths: 
-#### get and post request from the Airtable Api
+get and post request from the Airtable Api
 
 ### Weaknesses:
-#### I struggle in certain parts of the Reactjs such as props because i get confused sometimes like where to pass.
+I struggle in certain parts of the Reactjs such as props because i get confused sometimes like where to pass.
 ### Opportunities:
-#### This project will help me better my learned skills, and strengthen my current weaknesses.
+This project will help me better my learned skills, and strengthen my current weaknesses.
 
 ### Threats:
-#### Not good at components.
+Not good at components.
