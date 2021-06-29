@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Project Name
+DUEWORK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+- This Project will allow user to add and delete new due Projects with subject name, title description and due date.
 
-In the project directory, you can run:
+## Wireframes
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Component Hierarchy
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## API and Data Sample
+```
+{
+    "records": [
+        {
+            "id": "rec2zvIhuZikzrYs7",
+            "fields": {
+                "name": "Html/Css",
+                "title": "Style Html using CSS",
+                "description": "Style navbar and containers",
+                "dueDate": "2021-07-08"
+            },
+            "createdTime": "2021-06-29T14:07:23.000Z"
+        },
+        {
+            "id": "recrkNWeXqMU9FVLg",
+            "fields": {
+                "name": "JavaScript ",
+                "title": "JavaScript Algos",
+                "description": "Copy and Paste algo",
+                "dueDate": "2021-07-09"
+            },
+            "createdTime": "2021-06-29T14:07:23.000Z"
+        },
+        {
+            "id": "recDFeQ7EhHJTB6kM",
+            "fields": {
+                "name": "ReactJs",
+                "title": "React Api",
+                "description": "Import useEffect and UseState",
+                "dueDate": "2021-07-13"
+            },
+            "createdTime": "2021-06-29T14:07:23.000Z"
+        }
+    ],
+    "offset": "recDFeQ7EhHJTB6kM"
+}
+```        
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## MVP
+- Get Post
+- Display Due Posts
+- Add Form Page 
+- Add and Remove post
+- Hover on Containers and buttons
+- Pick a date from callender
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Post MVP
+- Add more styles and transtions
+- Add more features such as Contact Page, edit post, search Post
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Project Schedule
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+| Day | Components | Status |
+| --- | :---: |  :---: | 
+| Tuesday June 28|Project Approval / Research| Incomplete|  
+| Wednesday June 29 | Airtable Set up and Axios| Incomplete| 
+| Thursday June 30| Get Data | Incomplete|  
+| Friday July 1| React | Incomplete| 
+| Monday July 5| CSS | Incomplete|
+| Tuesday July 6 | Media Query | Incomplete| 
+| Wednesday July 7 | Presentation | Incomplete| 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Timeframes 
 
-## Learn More
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Airtable setup | H | 3hrs|  N/A  | N/A |
+| Axios set up | H | .5hrs|   N/A  | N/A |
+| General Research| H | 2hrs|   N/A  | N/A |
+| Get and Set Data | H | 4hrs|   N/A   | N/A |
+| React| H | 6hrs|   N/A   | N/A |
+| Home Page| H | 2hrs|   N/A   | N/A |
+| Form Page| H | 1.5hrs|  N/A    | N/A |
+| CSS  | H | 8hrs|   N/A   | N/A |
+| Media query | H | 7hrs|   N/A  | N/A |
+| Debugging | H | 5hrs|   N/A   | N/A |
+| Total | H | 39hrs|  N/A   | N/A  |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used:
+- HTML
+- CSS
+- JavaScript/ReactJS
+- Airtable API
+## SWOT Analysis
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Strengths: 
+#### get and post request from the Airtable Api
 
-### Code Splitting
+### Weaknesses:
+#### I struggle in certain parts of the Reactjs such as props because i get confused sometimes like where to pass.
+### Opportunities:
+#### This project will help me better my learned skills, and strengthen my current weaknesses.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Threats:
+#### Not good at components.
