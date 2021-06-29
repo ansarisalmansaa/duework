@@ -101,6 +101,7 @@ DUEWORK
 - CSS
 - JavaScript/ReactJS
 - Airtable API
+- Figma
 ## SWOT Analysis
 
 ### Strengths: 
