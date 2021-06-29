@@ -11,7 +11,7 @@ DUEWORK
 <img width="309" alt="Screen Shot 2021-06-29 at 1 27 41 AM" src="https://user-images.githubusercontent.com/84696994/123822678-8158b580-d8ca-11eb-9ca6-b84484f3d00a.png">
 
 ## Component Hierarchy
-
+<img width="538" alt="Screen Shot 2021-06-29 at 12 37 56 PM" src="https://user-images.githubusercontent.com/84696994/123835772-f16d3880-d8d6-11eb-952f-20e307a75a4b.png">
 
 
 ## API and Data Sample
