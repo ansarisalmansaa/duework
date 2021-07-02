@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import { Link, Route } from 'react-router-dom';
 import './App.css';
 import formbtn from './images/formbtn.png';
-
 import { baseURL,config } from './services';
 import Form from "./components/Form";
 import Navbar from "./components/Navbar";
@@ -14,11 +13,10 @@ import Container from './components/Container';
 
 function App() {
   const [duework, setDuework]= useState([]);
-const [toggleFetch, setToggleFetch] = useState(true);
+  const [toggleFetch, setToggleFetch] = useState(true);
     useEffect(() => {
       const fetchDuework= async () => {
-        
-        const resp = await axios.get(baseURL, config);
+      const resp = await axios.get(baseURL, config);
        setDuework(resp.data.records);
       }
       fetchDuework();

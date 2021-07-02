@@ -7,8 +7,9 @@ display: flex;
 flex-direction: column;
 margin-left: 20%;
 margin-right: 20%;
-background: rgba(242, 239, 240, 0.8);
+background: #f2eff0cc;
 border-radius: 9px 9px 0px 0px;
+
 
 }
 #formHead{
@@ -37,6 +38,7 @@ width: 80%;
 margin-left: 8%;
 background: #FFFFFF;
 border-radius: 9px;
+border-color: #E8CB67;
 }
 #formL{
 display: flex;
