@@ -1,11 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#welcome{
+  background: #F2EFF0;
+  margin-top: 0%;
 }
+#due{
+  font-family:'Rock Salt', cursive;
+}
+#work{
+  font-family:'Poller One', cursive;
+  font-weight:lighter;
+  font-size: 20px;
+}
+#formImg{
+  display: flex;
+  margin-left: 40px;
+}
+#dueHead{
+  display: inline;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

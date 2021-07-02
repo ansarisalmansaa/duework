@@ -1,0 +1,25 @@
+.container{
+    border-radius: 9px 9px 0px 0px;
+    width: 40%;
+    display: flex;
+    margin: 20px;
+    background: rgba(242, 239, 240, 0.8);
+    margin-top: 5%;
+    flex-direction: column;
+
+   
+}
+#containerHead{
+    /* position:relative; */
+    background-color: #E8CB67;
+border-radius: 9px 9px 0px 0px;
+height: 30%;
+padding: 25px;
+
+
+}
+#removeBtn{
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+}

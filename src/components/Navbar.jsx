@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import './Navbar.css'
 
 function Navbar(){
     return(
         <nav>
-           <label><span>Due</span><span>WORK</span></label> 
+           <label id="NavLabel"><span id="Navdue">DUE</span>
+           <span id="Navwork">WORK</span></label> 
         </nav>
     )
 }

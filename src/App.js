@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Link, Route } from 'react-router-dom';
 import './App.css';
+import formbtn from './images/formbtn.png';
+
 import { baseURL,config } from './services';
 import Form from "./components/Form";
 import Navbar from "./components/Navbar";
@@ -27,11 +29,11 @@ const [toggleFetch, setToggleFetch] = useState(true);
      <Route exact path="/">
        <main>
      <div id="welcome">
-      <h1>Welcome To <span>Due</span> <span>WORK</span> APP</h1>
+      <h1>Welcome To <span id="due">Due</span><span id="work">WORK</span> APP</h1>
      </div>
+      <h3 id="dueHead">Here is what you have Due!</h3>
      <div id="formImg">
-       <Link to="/new">Form</Link>
-      <h3>Here is what you have Due!</h3>
+       <Link to="/new"><img src={formbtn} alt="image" /></Link>
 
       {duework.map((work)=> (
       <Container setToggleFetch={setToggleFetch} work={work}/>

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+form{
+display: flex;
+flex-direction: column;
+margin-left: 20%;
+margin-right: 20%;
+background: rgba(242, 239, 240, 0.8);
+border-radius: 9px 9px 0px 0px;
+
+}
+#formHead{
+font-family: 'Poller One', cursive;
+background: #E8CB67;
+border-radius: 9px 9px 0px 0px;
+margin-top: 0px;
+height: 45px;
+}
+button{
+ 
+height: 45px;
+background: rgba(0, 0, 0, 0.82);
+border-radius: 0px 0px 9px 9px;
+margin-top:10px;
+}
+#btnh{
+   color: white ;
+font-size: 50px;
+margin-top: -10px;
+}
+
+input{
+padding: 10px;
+width: 80%;
+margin-left: 8%;
+background: #FFFFFF;
+border-radius: 9px;
+}
+#formL{
+display: flex;
+margin-left: 8%;
+margin-top: 20px;
+margin-bottom: 5px;
+font-weight: bold;
+}

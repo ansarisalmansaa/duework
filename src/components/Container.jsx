@@ -1,6 +1,7 @@
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { baseURL, config} from "../services";
+import'./Container.css';
 function Container(props){
 
     const handleSubmit = async (e) => {
@@ -11,16 +12,16 @@ function Container(props){
     }
 
     return(
-       <div>
+       <div class="container">
            <div id="containerHead">
-           <h1>{props.work.fields.name}</h1>
-           <h3>{props.work.fields.title}</h3>
+           <h2>{props.work.fields.name}</h2>
+           <h4>{props.work.fields.title}</h4>
            </div>
            <div>
                <p>{props.work.fields.description}</p>
-               <h4>{props.work.fields.dueDate}</h4>
+               <h5>{props.work.fields.dueDate}</h5>
            </div>
-           <button onClick={handleSubmit}>REMOVE</button>
+           <button id="removeBtn" onClick={handleSubmit}>REMOVE</button>
        </div>
     )
 }
