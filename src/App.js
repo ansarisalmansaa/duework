@@ -9,8 +9,6 @@ import Form from "./components/Form";
 import Navbar from "./components/Navbar";
 import Container from './components/Container';
 
-
-
 function App() {
   const [duework, setDuework]= useState([]);
   const [toggleFetch, setToggleFetch] = useState(true);
@@ -31,14 +29,12 @@ function App() {
      </div>
       <h3 id="dueHead">Here is what you have Due!</h3>
      <div id="formImg">
-       <Link to="/new"><img src={formbtn} alt="image" /></Link>
+       <Link to="/new" id ="formButton"><img src={formbtn} alt="image" /></Link>
 
       {duework.map((work)=> (
       <Container setToggleFetch={setToggleFetch} work={work}/>
       ))}
-      
      </div>
-     
      
        </main>
      </Route>

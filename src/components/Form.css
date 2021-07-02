@@ -9,8 +9,6 @@ margin-left: 20%;
 margin-right: 20%;
 background: #f2eff0cc;
 border-radius: 9px 9px 0px 0px;
-
-
 }
 #formHead{
 font-family: 'Poller One', cursive;
@@ -25,6 +23,11 @@ height: 45px;
 background: rgba(0, 0, 0, 0.82);
 border-radius: 0px 0px 9px 9px;
 margin-top:10px;
+
+}
+button:hover{
+ box-shadow: 0 0 10px 0 #E8CB67 inset, 0 0 20px 2px #E8CB67;
+border: 3px solid #E8CB67;
 }
 #btnh{
    color: white ;
