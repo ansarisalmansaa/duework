@@ -1,52 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
-*{
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
 }
-form{
-display: flex;
-flex-direction: column;
-margin-left: 20%;
-margin-right: 20%;
-background: #f2eff0cc;
-border-radius: 9px 9px 0px 0px;
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+  background: #f2eff0cc;
+  border-radius: 9px 9px 0px 0px;
 }
-#formHead{
-font-family: 'Poller One', cursive;
-background: #E8CB67;
-border-radius: 9px 9px 0px 0px;
-margin-top: 0px;
-height: 45px;
+#formHead {
+  font-family: "Poller One", cursive;
+  background: #e8cb67;
+  border-radius: 9px 9px 0px 0px;
+  margin-top: 0px;
+  height: 45px;
 }
-button{
- 
-height: 45px;
-background: rgba(0, 0, 0, 0.82);
-border-radius: 0px 0px 9px 9px;
-margin-top:10px;
-
+button {
+  height: 45px;
+  background: rgba(0, 0, 0, 0.82);
+  border-radius: 0px 0px 9px 9px;
+  margin-top: 10px;
 }
-button:hover{
- box-shadow: 0 0 10px 0 #E8CB67 inset, 0 0 20px 2px #E8CB67;
-border: 3px solid #E8CB67;
+button:hover {
+  box-shadow: 0 0 10px 0 #e8cb67 inset, 0 0 20px 2px #e8cb67;
+  border: 3px solid #e8cb67;
 }
-#btnh{
-   color: white ;
-font-size: 50px;
-margin-top: -10px;
+#btnh {
+  color: white;
+  font-size: 50px;
+  margin-top: -10px;
 }
 
-input{
-padding: 10px;
-width: 80%;
-margin-left: 8%;
-background: #FFFFFF;
-border-radius: 9px;
-border-color: #E8CB67;
+input {
+  padding: 10px;
+  width: 80%;
+  margin-left: 8%;
+  background: #ffffff;
+  border-radius: 9px;
+  border-color: #e8cb67;
 }
-#formL{
-display: flex;
-margin-left: 8%;
-margin-top: 20px;
-margin-bottom: 5px;
-font-weight: bold;
+#formL {
+  display: flex;
+  margin-left: 8%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }

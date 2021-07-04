@@ -1,35 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-*{
-  font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
 }
 .App {
   text-align: center;
 }
-#welcome{
-  background: #F2EFF0;
+#welcome {
+  background: #f2eff0;
   margin-top: 0%;
 }
-#due{
-  font-family:'Rock Salt', cursive;
+#due {
+  font-family: "Rock Salt", cursive;
 }
-#work{
-  font-family:'Poller One', cursive;
-  font-weight:lighter;
+#work {
+  font-family: "Poller One", cursive;
+  font-weight: lighter;
   font-size: 20px;
 }
-#formImg{
+#formImg {
   display: flex;
   margin-left: 40px;
 }
-#formButton{
+#formButton {
   height: 25px;
 }
-#dueHead{
-  display: inline;
+#formButton:hover {
+  box-shadow: 0 0 10px 0 #e8cb67 inset, 0 0 20px 2px #e8cb67;
 }
-.Containers{
-color: red;
+#dueHead {
+  display: inline;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -48,7 +48,6 @@ color: red;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 
 .App-link {
   color: #61dafb;

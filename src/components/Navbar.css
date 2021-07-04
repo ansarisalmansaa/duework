@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-nav{
-    padding: 7px;
-    background-color: #251E1F;
-    padding-bottom: 0%;
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+nav {
+  padding: 7px;
+  background-color: #251e1f;
+  padding-bottom: 0%;
 }
-#Navdue{
-color:white;
-font-family:'Rock Salt', cursive;
+#Navdue {
+  color: white;
+  font-family: "Rock Salt", cursive;
 }
-#Navwork{
-color: white;
-font-family: 'Poller One', cursive;
+#Navwork {
+  color: white;
+  font-family: "Poller One", cursive;
 }
-#NavLabel{
-margin-left:-85%;
+#NavLabel {
+  margin-left: -85%;
 }
