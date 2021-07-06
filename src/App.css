@@ -41,7 +41,6 @@
   }
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -61,8 +60,7 @@
 .App-link {
   color: #61dafb;
 }
-#nav{
-  
+#nav {
 }
 
 @keyframes App-logo-spin {
@@ -82,13 +80,7 @@
     margin-top: 10px;
     margin-left: -20%;
   }
-  #welcome{
+  #welcome {
     width: 100%;
-  }
- 
-}
-@media screen and (max-wdth:380px){
-  #nav{
-    
   }
 }

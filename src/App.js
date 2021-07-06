@@ -20,14 +20,14 @@ function App() {
   }, [toggleFetch]); // Will only run on mount
   return (
     <div className="App">
-      <Navbar id="nav"/>
+      <Navbar id="nav" />
       <Route exact path="/">
-          <div id="welcome">
-            <h1>
-              Welcome To <span id="due">Due</span>
-              <span id="work">WORK</span> APP
-            </h1>
-          </div>
+        <div id="welcome">
+          <h1>
+            Welcome To <span id="due">Due</span>
+            <span id="work">WORK</span> APP
+          </h1>
+        </div>
         <main>
           <h3 id="dueHead">Here is what you have Due!</h3>
           <div id="formImg">
@@ -36,10 +36,13 @@ function App() {
             </Link>
 
             <div id="box">
-
-            {duework.map((work) => (
-              <Container id="containers" setToggleFetch={setToggleFetch} work={work} />
-            ))}
+              {duework.map((work) => (
+                <Container
+                  id="containers"
+                  setToggleFetch={setToggleFetch}
+                  work={work}
+                />
+              ))}
             </div>
           </div>
         </main>
