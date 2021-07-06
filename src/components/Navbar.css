@@ -4,6 +4,7 @@ nav {
   padding: 7px;
   background-color: #251e1f;
   padding-bottom: 0%;
+  
 }
 #Navdue {
   color: white;
@@ -15,4 +16,9 @@ nav {
 }
 #NavLabel {
   margin-left: -85%;
+}
+@media screen and(max-width: 458px) {
+  #NavLabel{
+    justify-content: center;
+  }
 }

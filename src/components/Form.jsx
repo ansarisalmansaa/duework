@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { baseURL, config } from "../services";
 import "./Form.css";
@@ -10,19 +10,21 @@ function Form(props) {
   const [description, setDescription] = useState("");
   const [dueDate, setDueDate] = useState();
   const history = useHistory();
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // useEffect(()=>{
+    const handleSubmit = async (e) => {
+      e.preventDefault();
 
-    const newPost = {
-      name,
-      title,
-      description,
-      dueDate,
-    };
-    await axios.post(baseURL, { fields: newPost }, config);
-
-    history.push("/");
+  const newPost = {
+    name,
+    title,
+    description,
+    dueDate,
   };
+  await axios.post(baseURL, { fields: newPost }, config);
+
+  history.push("/");
+};
+// }});
 
   return (
     <div>

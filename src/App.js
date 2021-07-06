@@ -20,7 +20,7 @@ function App() {
   }, [toggleFetch]); // Will only run on mount
   return (
     <div className="App">
-      <Navbar />
+      <Navbar id="nav"/>
       <Route exact path="/">
           <div id="welcome">
             <h1>
@@ -34,6 +34,7 @@ function App() {
             <Link to="/new" id="formButton">
               <img src={formbtn} alt="image" />
             </Link>
+
             <div id="box">
 
             {duework.map((work) => (
