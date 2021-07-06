@@ -22,22 +22,24 @@ function App() {
     <div className="App">
       <Navbar />
       <Route exact path="/">
-        <main>
           <div id="welcome">
             <h1>
               Welcome To <span id="due">Due</span>
               <span id="work">WORK</span> APP
             </h1>
           </div>
+        <main>
           <h3 id="dueHead">Here is what you have Due!</h3>
           <div id="formImg">
             <Link to="/new" id="formButton">
               <img src={formbtn} alt="image" />
             </Link>
+            <div id="box">
 
             {duework.map((work) => (
-              <Container setToggleFetch={setToggleFetch} work={work} />
+              <Container id="containers" setToggleFetch={setToggleFetch} work={work} />
             ))}
+            </div>
           </div>
         </main>
       </Route>

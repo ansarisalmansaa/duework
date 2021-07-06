@@ -9,6 +9,7 @@
 #welcome {
   background: #f2eff0;
   margin-top: 0%;
+  width: 100vw;
 }
 #due {
   font-family: "Rock Salt", cursive;
@@ -38,6 +39,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -48,7 +50,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+#box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .App-link {
   color: #61dafb;
 }
@@ -59,5 +66,16 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #welcome{
+    width: 100vw;
   }
 }

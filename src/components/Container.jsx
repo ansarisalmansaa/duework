@@ -11,7 +11,7 @@ function Container(props) {
   };
 
   return (
-    <div class="container">
+    <div className="container">
       <div id="containerHead">
         <h2>{props.work.fields.name}</h2>
         <h4>{props.work.fields.title}</h4>
