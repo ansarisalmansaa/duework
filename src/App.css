@@ -181,6 +181,22 @@
     font-size: 22px;
   }
 }
+@media screen and (device-width: 428px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -16%;
+    justify-content: center;
+  }
+  #welcome {
+    width: 100%;
+  }
+  #welcome h1 {
+    font-size: 22px;
+  }
+}
 @media screen and (device-width: 375px) {
   #box {
     display: flex;
