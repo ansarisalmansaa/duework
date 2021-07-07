@@ -57,7 +57,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
-  margin-left: 4%;
+  margin-left: 5%;
 }
 .App-link {
   color: #61dafb;
@@ -71,6 +71,40 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (device-width: 1866px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 15%;
+  }
+  #welcome {
+    width: 100%;
+  }
+  #welcome h1 {
+    font-size: 22px;
+  }
+}
+@media screen and (device-width: 1024px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: -60px;
+  }
+  #welcome {
+    width: 100%;
+  }
+  #welcome h1 {
+    font-size: 22px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   #box {
     display: flex;
@@ -83,13 +117,13 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (device-width: 768px) {
   #box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -16%;
+    margin-left: -6%;
   }
   #welcome {
     width: 100%;
@@ -99,12 +133,13 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (device-width: 540px) {
   #box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
+    margin-left: -11%;
     justify-content: center;
   }
   #welcome {
@@ -114,19 +149,71 @@
     font-size: 22px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (device-width: 414px) {
   #box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-
-    margin-left: -21.5%;
+    margin-left: -16%;
+    justify-content: center;
   }
   #welcome {
     width: 100%;
   }
   #welcome h1 {
     font-size: 22px;
+  }
+}
+@media screen and (device-width: 411px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -17%;
+    justify-content: center;
+  }
+  #welcome {
+    width: 100%;
+  }
+  #welcome h1 {
+    font-size: 22px;
+  }
+}
+@media screen and (device-width: 375px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -21.5%;
+    justify-content: center;
+  }
+  #welcome {
+    width: 100%;
+  }
+  #welcome h1 {
+    font-size: 22px;
+  }
+}
+@media screen and (device-width: 320px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -20.4%;
+    justify-content: center;
+  }
+  #welcome {
+    width: 100%;
+    padding-right: 100%;
+    
+  }
+  
+  #welcome h1 {
+    font-size: 22px;
+    justify-content: center;
   }
 }
