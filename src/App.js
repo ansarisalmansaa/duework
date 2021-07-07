@@ -21,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <Navbar className="nav" />
+      
       <Route exact path="/">
         <div id="welcome">
           <h1>
@@ -28,13 +29,14 @@ function App() {
             <span id="work">WORK</span> APP
           </h1>
         </div>
+        
         <main>
           <h3 id="dueHead">Here is what you have Due!</h3>
-          <div id="formImg">
-            <Link to="/new" id="formButton">
-              <img src={formbtn} alt="image" />
+          <Link to="/new" id="formButton">
+              <img src={formbtn} alt="image"/>Add
             </Link>
-
+          <div id="formImg">
+            
             <div id="box">
               {duework.map((work) => (
                 <Container

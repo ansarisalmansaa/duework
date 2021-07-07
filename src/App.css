@@ -11,7 +11,7 @@
   margin-top: 0%;
   margin: 0 auto;
   width: 100%;
-  /* position: relative; */
+  padding-left: 34px;
 }
 #due {
   font-family: "Rock Salt", cursive;
@@ -24,15 +24,24 @@
 #formImg {
   display: flex;
   margin-left: 40px;
+  justify-content: center;
 }
 #formButton {
-  height: 25px;
+  height: 30px;
+  display: flex;
+  text-decoration: none;
+  font-weight: bolder;
+  color: Black;
+  margin-left: 4%;
+  margin-top: 2%;
+  width: 60px;
 }
 #formButton:hover {
   box-shadow: 0 0 10px 0 #e8cb67 inset, 0 0 20px 2px #e8cb67;
 }
 #dueHead {
   display: inline;
+  margin-left: 8%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -56,8 +65,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
-  margin-left: 5%;
+  margin-top: 10px;
+  /* margin-left: 8%; */
 }
 .App-link {
   color: #61dafb;
@@ -79,7 +88,6 @@
     flex-wrap: wrap;
     margin-top: 10px;
     justify-content: center;
-    margin-left: 15%;
   }
   #welcome {
     width: 100%;
@@ -105,7 +113,7 @@
     font-size: 22px;
     justify-content: center;
   }
-  #dueHead{
+  #dueHead {
     margin-left: 7%;
   }
 }
@@ -133,13 +141,11 @@
   #welcome {
     width: 100%;
     padding-left: 33px;
-    
   }
   #welcome h1 {
     font-size: 30px;
-
   }
-  #dueHead{
+  #dueHead {
     margin-left: 5%;
     font-size: 20px;
     justify-content: center;
@@ -168,17 +174,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -9%;
+    margin-left: -2%;
     justify-content: center;
   }
   #welcome {
     width: 100%;
-    padding-left: 33px;
+    /* padding-left: 33px; */
   }
   #welcome h1 {
     font-size: 22px;
   }
-  #dueHead{
+  #dueHead {
     margin-left: 50px;
   }
 }
@@ -188,7 +194,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -18%;
+    margin-left: -1%;
     justify-content: center;
   }
   #welcome {
@@ -196,7 +202,7 @@
   }
   #welcome h1 {
     font-size: 22px;
-    padding-left: 12px;
+    /* padding-left: 12px; */
   }
 }
 @media screen and (device-width: 428px) {
@@ -205,17 +211,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -7%;
+    margin-left: -1%;
     justify-content: center;
   }
   #welcome {
     width: 100vw;
-    padding-left: 33px;
+    /* padding-left: 33px; */
   }
   #welcome h1 {
     font-size: 22px;
   }
-  #dueHead{
+  #dueHead {
     margin-left: 40px;
   }
 }
@@ -235,43 +241,39 @@
     font-size: 22px;
   }
 } */
-@media only screen and (device-width: 375px)  {
-  
+@media only screen and (device-width: 375px) {
   #box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -16%;
+    margin-left: -1%;
     justify-content: center;
   }
   #welcome {
     width: 100vw;
-    padding-left: 34px;
+    /* padding-left: 34px; */
   }
   #welcome h1 {
     font-size: 22px;
   }
 }
-@media only screen and (device-width: 360px)  {
-  
+@media only screen and (device-width: 360px) {
   #box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -19%;
+    margin-left: -1%;
     justify-content: center;
   }
-  #welcome {
-    padding-left: 34px;
-  }
+
   #welcome h1 {
     font-size: 16px;
     margin-right: 14px;
     justify-content: center;
   }
-  #dueHead{
+  #dueHead {
     margin-left: 14%;
     font-size: 15px;
   }
