@@ -187,24 +187,25 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -16%;
+    margin-left: -13%;
     justify-content: center;
   }
   #welcome {
-    width: 100%;
+    width: 100vw;
+    padding-left: 13px;
   }
   #welcome h1 {
     font-size: 22px;
   }
 }
-@media screen and (device-width: 375px) {
+/* @media screen and (device-width: 375px) {
   #box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -21.6%;
-    justify-content: center;
+    margin-left: -21.8%;
+    
   }
   #welcome {
     width: 100%;
@@ -212,4 +213,24 @@
   #welcome h1 {
     font-size: 22px;
   }
+} */
+@media only screen and (device-width: 375px)  {
+  
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -21%;
+    justify-content: center;
+  }
+  #welcome {
+    width: 100vw;
+    padding-left: 13px;
+  }
+  #welcome h1 {
+    font-size: 22px;
+  }
+
+
 }
