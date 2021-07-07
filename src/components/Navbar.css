@@ -6,7 +6,6 @@ nav {
   padding-bottom: 0%;
   /* position: fixed; */
   width: 100%;
-  
 }
 #Navdue {
   color: white;
@@ -20,4 +19,8 @@ nav {
   /* margin-left: -70%; */
   justify-content: center;
 }
-
+@media screen and (device-width: 320px) {
+  nav {
+    width: 100%;
+  }
+}

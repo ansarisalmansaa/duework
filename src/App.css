@@ -171,7 +171,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -17%;
+    margin-left: -18%;
     justify-content: center;
   }
   #welcome {
@@ -197,23 +197,4 @@
     font-size: 22px;
   }
 }
-@media screen and (device-width: 320px) {
-  #box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    margin-left: -20.4%;
-    justify-content: center;
-  }
-  #welcome {
-    width: 100%;
-    padding-right: 100%;
-    
-  }
-  
-  #welcome h1 {
-    font-size: 22px;
-    justify-content: center;
-  }
-}
+
