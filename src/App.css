@@ -95,13 +95,18 @@
     flex-wrap: wrap;
     margin-top: 10px;
     justify-content: center;
-    margin-left: -60px;
+    margin-left: -20px;
   }
   #welcome {
     width: 100%;
+    padding-left: 35px;
   }
   #welcome h1 {
     font-size: 22px;
+    justify-content: center;
+  }
+  #dueHead{
+    margin-left: 7%;
   }
 }
 
@@ -123,13 +128,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -6%;
+    margin-left: -4%;
   }
   #welcome {
     width: 100%;
+    padding-left: 33px;
+    
   }
   #welcome h1 {
-    font-size: 22px;
+    font-size: 30px;
+
+  }
+  #dueHead{
+    margin-left: 5%;
+    font-size: 20px;
+    justify-content: center;
   }
 }
 
@@ -155,14 +168,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -16%;
+    margin-left: -9%;
     justify-content: center;
   }
   #welcome {
     width: 100%;
+    padding-left: 33px;
   }
   #welcome h1 {
     font-size: 22px;
+  }
+  #dueHead{
+    margin-left: 50px;
   }
 }
 @media screen and (device-width: 411px) {
@@ -179,6 +196,7 @@
   }
   #welcome h1 {
     font-size: 22px;
+    padding-left: 12px;
   }
 }
 @media screen and (device-width: 428px) {
@@ -187,15 +205,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -13%;
+    margin-left: -7%;
     justify-content: center;
   }
   #welcome {
     width: 100vw;
-    padding-left: 13px;
+    padding-left: 33px;
   }
   #welcome h1 {
     font-size: 22px;
+  }
+  #dueHead{
+    margin-left: 40px;
   }
 }
 /* @media screen and (device-width: 375px) {
@@ -221,16 +242,37 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -21%;
+    margin-left: -16%;
     justify-content: center;
   }
   #welcome {
     width: 100vw;
-    padding-left: 13px;
+    padding-left: 34px;
   }
   #welcome h1 {
     font-size: 22px;
   }
-
-
+}
+@media only screen and (device-width: 360px)  {
+  
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -19%;
+    justify-content: center;
+  }
+  #welcome {
+    padding-left: 34px;
+  }
+  #welcome h1 {
+    font-size: 16px;
+    margin-right: 14px;
+    justify-content: center;
+  }
+  #dueHead{
+    margin-left: 14%;
+    font-size: 15px;
+  }
 }
