@@ -20,7 +20,7 @@ function App() {
   }, [toggleFetch]); // Will only run on mount
   return (
     <div className="App">
-      <Navbar id="nav" />
+      <Navbar />
       <Route exact path="/">
         <div id="welcome">
           <h1>

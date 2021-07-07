@@ -10,7 +10,7 @@
   background: #f2eff0;
   margin-top: 0%;
   margin: 0 auto;
-  width: 100vw;
+  width: 100%;
   /* position: relative; */
 }
 #due {
@@ -56,11 +56,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 50px;
+  margin-left:4%;
 }
 .App-link {
   color: #61dafb;
-}
-#nav {
 }
 
 @keyframes App-logo-spin {
@@ -71,16 +71,47 @@
     transform: rotate(360deg);
   }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: -20%;
+    margin-left: -21%;
   }
   #welcome {
     width: 100%;
   }
+}
+@media screen and (max-width: 770px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -21%;
+    
+  }
+  #welcome {
+    width: 100%;
+  }
+#welcome h1{
+  font-size: 22px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  #welcome {
+    width: 100%;
+  }
+#welcome h1{
+  font-size: 22px;
+}
 }

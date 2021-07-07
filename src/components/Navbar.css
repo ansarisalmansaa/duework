@@ -4,6 +4,8 @@ nav {
   padding: 7px;
   background-color: #251e1f;
   padding-bottom: 0%;
+  /* position: fixed; */
+  width: 100%;
   
 }
 #Navdue {
@@ -15,10 +17,7 @@ nav {
   font-family: "Poller One", cursive;
 }
 #NavLabel {
-  margin-left: -85%;
+  /* margin-left: -70%; */
+  justify-content: center;
 }
-@media screen and(max-width: 458px) {
-  #NavLabel{
-    justify-content: center;
-  }
-}
+
