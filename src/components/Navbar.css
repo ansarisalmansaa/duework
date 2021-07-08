@@ -3,10 +3,10 @@
 nav {
   padding: 7px;
   background-color: #251e1f;
-  /* padding-bottom: 0%; */
-  /* position: fixed; */
+  
   width: 100%;
   padding-left: 28px;
+  
 }
 #Navdue {
   color: white;
@@ -15,6 +15,10 @@ nav {
 #Navwork {
   color: white;
   font-family: "Poller One", cursive;
+}
+#homeButton{
+  text-decoration: none;
+  color: white;
 }
 #NavLabel {
   /* margin-left: -70%; */
