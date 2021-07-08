@@ -7,6 +7,7 @@ import { baseURL, config } from "./services";
 import Form from "./components/Form";
 import Navbar from "./components/Navbar";
 import Container from "./components/Container";
+import Footer from "./components/Footer";
 
 function App() {
   const [duework, setDuework] = useState([]);
@@ -52,6 +53,7 @@ function App() {
       <Route path="/new">
         <Form setToggleFetch={setToggleFetch} />
       </Route>
+      <Footer/>
     </div>
   );
 }
